@@ -83,7 +83,7 @@ class hackBlock {
 }
 //--------------
 const code = '60205',
-    difficulty = 10
+    difficulty = 2
 const block = new BlockChain(code, difficulty);
 const hack = new hackBlock(block, code, difficulty);
 console.log(block);
